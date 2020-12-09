@@ -1,7 +1,6 @@
 package Princeton.i.week_2.assign.linked;
 
 import edu.princeton.cs.algs4.StdIn;
-import edu.princeton.cs.algs4.StdOut;
 
 public class Permutation {
     public static void main(String[] args) {
@@ -12,10 +11,13 @@ public class Permutation {
             ranQue.enqueue(StdIn.readString());
         }
 
-        while (num > 0) {
-            ranQue.forEach(StdOut::println);
+        for (String s : ranQue) {
+            System.out.println(s);
+            if (num == 0) {
+                break;
+            }
             num--;
         }
-
     }
 }
+

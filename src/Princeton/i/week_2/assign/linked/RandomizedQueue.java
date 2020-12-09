@@ -152,9 +152,33 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
         RandomizedQueue<Object> a = new RandomizedQueue<>();
         for (int i = 0; i < 1000; i++) {
             a.enqueue(i);
-            System.out.println(i + " >> " + a.sample());
+            System.out.println("THREAD TWO >>>> " + i + " >> " + a.sample());
         }
         System.out.println(a.tail);
+
+        // test whether generate two random sequence randondeque.
+        /*
+        new Thread() {
+            @Override
+            public void run() {
+                for (int i = 0; i < 1000; i++) {
+                    a.enqueue(i);
+                    System.out.println("THREAD ONE >>>> " + i + " >> " + a.sample());
+                }
+                System.out.println(a.tail);
+            }
+        }.start();
+        new Thread() {
+            @Override
+            public void run() {
+                for (int i = 0; i < 1000; i++) {
+                    a.enqueue(i);
+                    System.out.println("THREAD TWO >>>> " + i + " >> " + a.sample());
+                }
+                System.out.println(a.tail);
+            }
+        }.start();
+        */
     }
 
     private class Node<Item> {
@@ -178,7 +202,7 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
     }
 
     private class RandomizedQueueIterator implements Iterator<Item> {
-        private Node<Item> current = head;
+        private Node<Item> current;
 
         @Override
         public boolean hasNext() {
@@ -196,7 +220,7 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
         }
 
         public boolean hasPrev() {
-            return current.prev != null;
+            return current != null;
         }
 
         public Item prev() {
@@ -216,3 +240,4 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
         }
     }
 }
+
