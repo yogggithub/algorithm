@@ -1,4 +1,4 @@
-package Princeton.i.week_2.assign.linked;
+package princeton.i.week_2.assign.linked;
 
 import edu.princeton.cs.algs4.StdIn;
 

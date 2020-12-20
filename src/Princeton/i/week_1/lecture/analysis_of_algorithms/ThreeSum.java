@@ -1,4 +1,4 @@
-package Princeton.i.week_1.analysis_of_algorithms;
+package princeton.i.week_1.lecture.analysis_of_algorithms;
 
 import edu.princeton.cs.algs4.Stopwatch;
 

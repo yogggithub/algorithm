@@ -1,4 +1,4 @@
-package Princeton.i.week_1.assign.solution;
+package princeton.i.week_1.assign.solution;
 
 import edu.princeton.cs.algs4.WeightedQuickUnionUF;
 

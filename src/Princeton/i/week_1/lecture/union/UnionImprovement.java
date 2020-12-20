@@ -1,4 +1,4 @@
-package Princeton.i.week_1.union;
+package princeton.i.week_1.lecture.union;
 
 public class UnionImprovement {
     public static void main(String[] args) {
