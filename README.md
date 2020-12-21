@@ -1,6 +1,8 @@
 # Princeton Algorithm
 Self-learning [Princeton Algorithms](https://www.coursera.org/learn/algorithms-part1/home/welcome) course
 
+点击跳转[中文说明文档](https://github.com/yogggithub/algorithm/blob/master/README_ZH_CN.md)
+
 Here are some hints for weekly assignments
 Maybe I would write down some ideas for weekly interview questions in the future.
 
