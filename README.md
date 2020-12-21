@@ -1,5 +1,5 @@
 # Princeton Algorithm
-Self-learning Princeton [Algorithms](https://www.coursera.org/learn/algorithms-part1/home/welcome) course
+Self-learning [Princeton Algorithms](https://www.coursera.org/learn/algorithms-part1/home/welcome) course
 
 Here are some hints for weekly assignments
 Maybe I would write down some ideas for weekly interview questions in the future.
