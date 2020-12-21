@@ -13,8 +13,7 @@ Here is the [ReadMe](https://github.com/yogggithub/algorithm/blob/master/README.
 
 1. 使用二维boolean数组存放状态，使用一维int数组存放ID，然后按照课程讲解的连接判断方法，判断节点是否联通。
 2. 建议创建2个虚拟节点（开始和结束），来简化联通判断。
-    > 将第一行与开始节点链接，将第n行与结束节点链接
-    > 当开始和结束两个节点联通时，就是已穿透
+    > 将第一行与开始节点链接，将第n行与结束节点链接。当开始和结束两个节点联通时，就是已穿透
 
 ## 第2周
 
@@ -22,7 +21,7 @@ Here is the [ReadMe](https://github.com/yogggithub/algorithm/blob/master/README.
 成绩：88
 
 1. 本周非常简单，使用链表或者数组都可以，各有简单的地方
-  > 最简化是Deque用链表，Randomized用数组
+   > 最简化是Deque用链表，Randomized用数组
 
 ## 第3周
 
