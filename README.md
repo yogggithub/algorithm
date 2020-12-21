@@ -7,6 +7,8 @@ Maybe I would write down some ideas for weekly interview questions in the future
 # Part I
 
 ## Week 1: Percolation
+
+### Assignment
 My score is 89
 
 1. use a two two-dimensional boolean arrays represent the open status, and use other one dimensional array store the id of the node. Then following the idea that learned from the lecture to justify whether nodes are connected or not. When top row and bottom row are connected to each other, we say the grid is percolated.
@@ -15,6 +17,8 @@ My score is 89
 4. If the two virtual points are in one set, the grid is percolated.
 
 ## Week 2：Deques and Randomized Queues
+
+### Assignment
 My score is 89
 
 1. Very simple, can either implement by array or doubly linked list
@@ -24,6 +28,8 @@ My score is 89
 4. the third class just simple read from Scanner, and ouput random k times.
 
 ## Week 3: Collinear Points
+
+### Assignment
 My score is 81.
 
 1. repeat items are not important
@@ -31,6 +37,8 @@ My score is 81.
 3. store the line segment after comparing the beginning and ending points, that would help to reduce repeat items and avoid partial segments
 
 ## Week 4: 8 Puzzle
+
+### Assignment
 My score is 88.
 
 1. Main method is using MinPQ, deal with the node which has the lowest priority each time.
