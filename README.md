@@ -1,4 +1,4 @@
-# algorithm
+# Princeton Algorithm
 Self-learning Princeton [Algorithms](https://www.coursera.org/learn/algorithms-part1/home/welcome) course
 
 Here are some hints for weekly assignments
