@@ -24,7 +24,9 @@ public class BinarySearchTree<Key extends Comparable<Key>, Value> {
 
     private Node put(Node x, Key key, Value val) {
         if (x == null) {
-            return new Node(key, val);
+            Node node = new Node(key, val);
+            node.subCount = 1;
+            return node;
         }
         int cmp = key.compareTo(x.key);
         if (cmp < 0) {
