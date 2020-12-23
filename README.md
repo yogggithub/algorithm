@@ -45,3 +45,12 @@ My score is 88
    > lowest priority means the board of this node needs the lesst steps to the goal.
 3. Board::manhattan(): pay attention to the index, there is no leading 0.
 4. A* algorithm is quite simple, find and add all the neighbors of the 0 into PQ, then delete the minimum priority node. If the node is the goal, add it as well as all its previous nodes to the solution. If not, repeat the process.
+
+## Week 5
+
+### Assignment: Kd-Trees
+My score is 86
+1. relatively simple
+2. PointSET.class only needs to use the provided SET data type to save points, and then call the corresponding methods of Point2D.class to complete the API one by one.
+3. KdTree.class can refer to BinarySeachTree, create an inner class named TreeNode, and save and find nodes according to BST.
+   > My TreeNode inner class should have a lot of room for optimization, I just use BST directly, not carefully optimize the code
