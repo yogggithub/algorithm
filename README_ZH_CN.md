@@ -42,3 +42,13 @@ Here is the [ReadMe](https://github.com/yogggithub/algorithm/blob/master/README.
 2. 根据作业要求，必须要创建一个内部类，用此类对象来代表PQ中的节点，并保存相关信息，包括前一个节点、已移动次数、优先级、是否twin节点等。该内部类的compareTo()基于优先级
 3. Board::manhattan()方法，要注意索引。因为第一个点不是0，所有索引都要 -1。
 4. A* 思路较直线，就是从0开始，把每种移动结果都添加到PQ中，然后从最低优先级的节点开始处理。如果节点已完成，则将此节点和所有前序节点都放到solution中，否则继续移动。
+
+
+## 第5周
+
+### 作业: Kd-Trees
+成绩：86
+1. 相对简单
+2. PointSET只需要使用提供的SET保存point，然后调用Point2D的相应方法，逐个将API补完即可。
+3. KdTree可以参考BinarySeachTree，创建TreeNode内部类，按照BST思路来保存、查找节点
+   > 我的TreeNode内部类应该还有很大的优化空间，我只是直接拿来BST，并没有仔细优化代码
