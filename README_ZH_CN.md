@@ -52,3 +52,18 @@ Here is the [ReadMe](https://github.com/yogggithub/algorithm/blob/master/README.
 2. PointSET只需要使用提供的SET保存point，然后调用Point2D的相应方法，逐个将API补完即可。
 3. KdTree可以参考BinarySeachTree，创建TreeNode内部类，按照BST思路来保存、查找节点
    > 我的TreeNode内部类应该还有很大的优化空间，我只是直接拿来BST，并没有仔细优化代码
+   
+   
+# 第二部分
+
+## 第1周
+
+### 作业: WordNet
+成绩：98
+1. wordNet.class
+   > isRooted()：每个word都需要有连线，否则就不是rooted
+   > hasCycle()：调用课程API中的DirectedCycle::hasCycle()
+2. SAP.class
+   > 不管是int还是Iterable，都可以直接调用课程API中的BreadthFirstDirectedPaths构造方法
+   > 无论length()还是ancestor()，其思路都是找到最短的路线。
+   > 不知道为什么未能通过 Test 17: check length() and ancestor() with zero-length iterable arguments
