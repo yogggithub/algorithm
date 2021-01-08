@@ -68,11 +68,11 @@ My score is 86
 My score is 98
 
 1. wordNet.class
-   > isRooted(): each node needs to have out edge, otherwise it is not rooted
-   > hasCycle(): call DirectedCycle::hasCycle() in the course API
+   > 1. isRooted(): each node needs to have out edge, otherwise it is not rooted
+   > 2. hasCycle(): call DirectedCycle::hasCycle() in the course API
 2. SAP.class
-   > Whether int or Iterable, you can directly call the BreadthFirstDirectedPaths constructor in the course API
-   > Whether length() or ancestor(), the idea is to find the shortest route.
-   > Not sure why it fails Test 17: check length() and ancestor() with zero-length iterable arguments
+   > 1. Whether int or Iterable, you can directly call the BreadthFirstDirectedPaths constructor in the course API
+   > 2. Whether length() or ancestor(), the idea is to find the shortest route.
+   > 3. Not sure why it fails Test 17: check length() and ancestor() with zero-length iterable arguments
 
 Translated with www.DeepL.com/Translator (free version)
