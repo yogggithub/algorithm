@@ -18,6 +18,7 @@ My score is 89
 3. link all row 1 to the begin point, and link row n to the end point.
 4. If the two virtual points are in one set, the grid is percolated.
 
+
 ## Week 2
 
 ### Assignment：Deques and Randomized Queues
@@ -25,6 +26,7 @@ My score is 88
 
 1. Very simple, can either implement by array or doubly linked list
    > it's better to use array for RandomizedQueue. If use doubly linked list, be careful for null pointer exception
+
 
 ## Week 3
 
@@ -34,6 +36,7 @@ My score is 81
 1. repeat items are not important
 2. carefully when trying the quick method, because sort would change the array forever
 3. store the line segment after comparing the beginning and ending points, that would help to reduce repeat items and avoid partial segments
+
 
 ## Week 4
 
@@ -46,6 +49,7 @@ My score is 88
 3. Board::manhattan(): pay attention to the index, there is no leading 0.
 4. A* algorithm is quite simple, find and add all the neighbors of the 0 into PQ, then delete the minimum priority node. If the node is the goal, add it as well as all its previous nodes to the solution. If not, repeat the process.
 
+
 ## Week 5
 
 ### Assignment: Kd-Trees
@@ -54,3 +58,21 @@ My score is 86
 2. PointSET.class only needs to use the provided SET data type to save points, and then call the corresponding methods of Point2D.class to complete the API one by one.
 3. KdTree.class can refer to BinarySeachTree, create an inner class named TreeNode, and save and find nodes according to BST.
    > My TreeNode inner class should have a lot of room for optimization, I just use BST directly, not carefully optimize the code
+
+
+# Part II
+
+## Week 1
+
+### Assignment: WordNet
+My score is 98
+
+1. wordNet.class
+   > isRooted(): each node needs to have out edge, otherwise it is not rooted
+   > hasCycle(): call DirectedCycle::hasCycle() in the course API
+2. SAP.class
+   > Whether int or Iterable, you can directly call the BreadthFirstDirectedPaths constructor in the course API
+   > Whether length() or ancestor(), the idea is to find the shortest route.
+   > Not sure why it fails Test 17: check length() and ancestor() with zero-length iterable arguments
+
+Translated with www.DeepL.com/Translator (free version)
