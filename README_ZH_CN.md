@@ -1,31 +1,40 @@
-# 普林斯顿算法课程
+# 算法自学
+
+## 目录
+- 
+- <a href="#princetonalgorithmcourse">普林斯顿算法课程</a>
+  1. <a href="#parti">第一部分</a>
+  2. <a href="#partii">第二部分</a>
+- <a href="#leetCodesolution">LeetCode Solutions</a>
+
+## <a id="princetonalgorithmcourse">普林斯顿算法课程</a>
 Here is the [ReadMe](https://github.com/yogggithub/algorithm/blob/master/README.md) in English.
 这个项目是自学[普林斯顿算法](https://www.coursera.org/learn/algorithms-part1/home/welcome)课程中的一些想法。
 
 本人水平有限，欢迎大家交流
 
-# 第一部分
+### <a id="parti">第一部分</a>
 
-## 第1周
+#### 第1周
 
-### 作业: Percolation
+##### 作业: Percolation
 成绩：89
 
 1. 使用二维boolean数组存放状态，使用一维int数组存放ID，然后按照课程讲解的连接判断方法，判断节点是否联通。
 2. 建议创建2个虚拟节点（开始和结束），来简化联通判断。
     > 将第一行与开始节点链接，将第n行与结束节点链接。当开始和结束两个节点联通时，就是已穿透
 
-## 第2周
+#### 第2周
 
-### 作业：Deques and Randomized Queues
+##### 作业：Deques and Randomized Queues
 成绩：88
 
 1. 本周非常简单，使用链表或者数组都可以，各有简单的地方
    > 最简化是Deque用链表，Randomized用数组
 
-## 第3周
+#### 第3周
 
-### 左右额: Collinear Points
+##### 左右额: Collinear Points
 成绩：81
 
 1. 重复的LineSegment不重要，重要的是线段要完整
@@ -33,9 +42,9 @@ Here is the [ReadMe](https://github.com/yogggithub/algorithm/blob/master/README.
 3. 保存LineSegment之前，先把首尾排序区分出来，会一定程度上避免重复
 
 
-## 第4周
+#### 第4周
 
-### 作业: 8 Puzzle
+##### 作业: 8 Puzzle
 成绩：88
 
 1. 整体思路：利用MinPQ，每次处理优先级最低的点
@@ -44,9 +53,9 @@ Here is the [ReadMe](https://github.com/yogggithub/algorithm/blob/master/README.
 4. A* 思路较直线，就是从0开始，把每种移动结果都添加到PQ中，然后从最低优先级的节点开始处理。如果节点已完成，则将此节点和所有前序节点都放到solution中，否则继续移动。
 
 
-## 第5周
+#### 第5周
 
-### 作业: Kd-Trees
+##### 作业: Kd-Trees
 成绩：86
 1. 相对简单
 2. PointSET只需要使用提供的SET保存point，然后调用Point2D的相应方法，逐个将API补完即可。
@@ -54,11 +63,11 @@ Here is the [ReadMe](https://github.com/yogggithub/algorithm/blob/master/README.
    > 我的TreeNode内部类应该还有很大的优化空间，我只是直接拿来BST，并没有仔细优化代码
    
    
-# 第二部分
+### <a id="partii">第二部分</a>
 
-## 第1周
+#### 第1周
 
-### 作业: WordNet
+##### 作业: WordNet
 成绩：98
 1. wordNet.class
    > isRooted()：每个word都需要有连线，否则就不是rooted
@@ -67,3 +76,8 @@ Here is the [ReadMe](https://github.com/yogggithub/algorithm/blob/master/README.
    > 不管是int还是Iterable，都可以直接调用课程API中的BreadthFirstDirectedPaths构造方法
    > 无论length()还是ancestor()，其思路都是找到最短的路线。
    > 不知道为什么未能通过 Test 17: check length() and ancestor() with zero-length iterable arguments
+
+
+## <a id="leetCodesolution">LeetCode刷题</a>
+
+
