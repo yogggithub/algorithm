@@ -1,4 +1,5 @@
 # Algorithm Learning
+[中文说明文档](https://github.com/yogggithub/algorithm/blob/master/README_ZH_CN.md)在这里
 
 ## Catalog
 - [Princeton Algorithm Course](#princetonalgorithmcourse)
@@ -9,8 +10,6 @@
 
 ## Princeton Algorithm Course
 Self-learning [Princeton Algorithms](https://www.coursera.org/learn/algorithms-part1/home/welcome) course
-
-[中文说明文档](https://github.com/yogggithub/algorithm/blob/master/README_ZH_CN.md)在这里
 
 Here are some hints for weekly assignments
 Maybe I would write down some ideas for weekly interview questions in the future.
