@@ -1,5 +1,8 @@
 # 算法自学
 
+本人水平有限，欢迎大家交流
+Here is the [ReadMe](https://github.com/yogggithub/algorithm/blob/master/README.md) in English.
+
 ## 目录
 - 
 - <a href="#princetonalgorithmcourse">普林斯顿算法课程</a>
@@ -8,10 +11,8 @@
 - <a href="#leetCodesolution">LeetCode Solutions</a>
 
 ## <a id="princetonalgorithmcourse">普林斯顿算法课程</a>
-Here is the [ReadMe](https://github.com/yogggithub/algorithm/blob/master/README.md) in English.
 这个项目是自学[普林斯顿算法](https://www.coursera.org/learn/algorithms-part1/home/welcome)课程中的一些想法。
 
-本人水平有限，欢迎大家交流
 
 ### <a id="parti">第一部分</a>
 
