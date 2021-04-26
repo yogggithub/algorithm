@@ -1,4 +1,13 @@
-# Princeton Algorithm
+# Algorithm Learning
+
+## Catalog
+- [Princeton Algorithm Course](#princetonalgorithmcourse)
+  1. [Part I](#parti)
+  2. [Part II](#partii) 
+- [LeetCode Solutions](#leetCodesolution)
+
+
+## Princeton Algorithm Course
 Self-learning [Princeton Algorithms](https://www.coursera.org/learn/algorithms-part1/home/welcome) course
 
 [中文说明文档](https://github.com/yogggithub/algorithm/blob/master/README_ZH_CN.md)在这里
@@ -6,9 +15,9 @@ Self-learning [Princeton Algorithms](https://www.coursera.org/learn/algorithms-p
 Here are some hints for weekly assignments
 Maybe I would write down some ideas for weekly interview questions in the future.
 
-# Part I
+### Part I
 
-## Week 1
+#### Week 1
 
 ### Assignment: Percolation
 My score is 89
@@ -19,18 +28,18 @@ My score is 89
 4. If the two virtual points are in one set, the grid is percolated.
 
 
-## Week 2
+#### Week 2
 
-### Assignment：Deques and Randomized Queues
+##### Assignment：Deques and Randomized Queues
 My score is 88
 
 1. Very simple, can either implement by array or doubly linked list
    > it's better to use array for RandomizedQueue. If use doubly linked list, be careful for null pointer exception
 
 
-## Week 3
+#### Week 3
 
-### Assignment: Collinear Points
+##### Assignment: Collinear Points
 My score is 81
 
 1. repeat items are not important
@@ -38,9 +47,9 @@ My score is 81
 3. store the line segment after comparing the beginning and ending points, that would help to reduce repeat items and avoid partial segments
 
 
-## Week 4
+#### Week 4
 
-### Assignment: 8 Puzzle
+##### Assignment: 8 Puzzle
 My score is 88
 
 1. Main method is using MinPQ, deal with the node which has the lowest priority each time.
@@ -50,9 +59,9 @@ My score is 88
 4. A* algorithm is quite simple, find and add all the neighbors of the 0 into PQ, then delete the minimum priority node. If the node is the goal, add it as well as all its previous nodes to the solution. If not, repeat the process.
 
 
-## Week 5
+#### Week 5
 
-### Assignment: Kd-Trees
+##### Assignment: Kd-Trees
 My score is 86
 1. relatively simple
 2. PointSET.class only needs to use the provided SET data type to save points, and then call the corresponding methods of Point2D.class to complete the API one by one.
@@ -60,9 +69,9 @@ My score is 86
    > My TreeNode inner class should have a lot of room for optimization, I just use BST directly, not carefully optimize the code
 
 
-# Part II
+### Part II
 
-## Week 1
+#### Week 1
 
 ### Assignment: WordNet
 My score is 98
@@ -75,4 +84,5 @@ My score is 98
    > 2. Whether length() or ancestor(), the idea is to find the shortest route.
    > 3. Not sure why it fails Test 17: check length() and ancestor() with zero-length iterable arguments
 
-Translated with www.DeepL.com/Translator (free version)
+
+## LeetCode Solutions
