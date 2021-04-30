@@ -79,6 +79,15 @@ Here is the [ReadMe](https://github.com/yogggithub/algorithm/blob/master/README.
    > 无论length()还是ancestor()，其思路都是找到最短的路线。
    > 不知道为什么未能通过 Test 17: check length() and ancestor() with zero-length iterable arguments
 
+#### 第2周
+
+##### 作业：Seam Carving
+成绩：99
+
+1. 对于固定值边界的处理比较繁琐，需要仔细处理。
+1. 要找到能量最小的点的集合，需要对整个图像遍历并计算energy，我创建两个数组：distTo保存最近距离，edgeTo保存对应的“父节点”。遍历全图后在最后一行 / 列找到distTo的最小值即为所求seam的尾元素，追踪edgeTo获得seam节点。
+1. seam删除后的energy处理是一个难点，需要认真考虑每移除一列或一行seam后，哪些点的energy可以复用，而哪些需要重新计算
+
 
 ## <a id="leetCodesolution">LeetCode刷题</a>
 
