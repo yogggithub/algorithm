@@ -83,5 +83,14 @@ My score is 98
    > 2. Whether length() or ancestor(), the idea is to find the shortest route.
    > 3. Not sure why it fails Test 17: check length() and ancestor() with zero-length iterable arguments
 
+#### Week 2
+
+### Assignment: Seam Carving
+My score is 99
+
+1. The processing of fixed-value boundaries is tedious and requires careful handling.
+1. To find the set of points with the lowest energy, I need to traverse the whole image and calculate the energy. I create two arrays: distTo to save the nearest distance and edgeTo to save the corresponding "parent node". After traversing the whole image, we find the minimum value of distTo in the last row/column, which is the tail element of the desired seam, and trace edgeTo to get the seam node.
+1. The handling of energy after seam deletion is a difficult point, which requires careful consideration of which points of energy can be reused and which need to be recalculated after each column or row of seam is removed.
+
 
 ## LeetCode Solutions
