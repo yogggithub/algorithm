@@ -92,5 +92,13 @@ My score is 99
 1. To find the set of points with the lowest energy, I need to traverse the whole image and calculate the energy. I create two arrays: distTo to save the nearest distance and edgeTo to save the corresponding "parent node". After traversing the whole image, we find the minimum value of distTo in the last row/column, which is the tail element of the desired seam, and trace edgeTo to get the seam node.
 1. The handling of energy after seam deletion is a difficult point, which requires careful consideration of which points of energy can be reused and which need to be recalculated after each column or row of seam is removed.
 
+#### Week 3
+
+### Assignment: Baseball Elimination
+My score is 97
+
+1. it is recommended to use the packages built into the course directly (FlowEdge, FlowNetwork and FordFulkerson)
+2. when building each team's Edge, you can simply use counters to represent the different matches
+3. the hard part is to figure out how to build FlowNetwork
 
 ## LeetCode Solutions
