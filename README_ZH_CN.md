@@ -88,6 +88,15 @@ Here is the [ReadMe](https://github.com/yogggithub/algorithm/blob/master/README.
 1. 要找到能量最小的点的集合，需要对整个图像遍历并计算energy，我创建两个数组：distTo保存最近距离，edgeTo保存对应的“父节点”。遍历全图后在最后一行 / 列找到distTo的最小值即为所求seam的尾元素，追踪edgeTo获得seam节点。
 1. seam删除后的energy处理是一个难点，需要认真考虑每移除一列或一行seam后，哪些点的energy可以复用，而哪些需要重新计算
 
+#### 第3周
+
+##### 作业：Baseball Elimination
+成绩：97
+
+1. 建议直接使用课程内置的包（FlowEdge，FlowNetwork和FordFulkerson）
+2. 在建立每只队伍的Edge时，可以简单使用计数器来代表不同的比赛
+3. 难点在于想清楚如何建立FlowNetwork
+
 
 ## <a id="leetCodesolution">LeetCode刷题</a>
 
