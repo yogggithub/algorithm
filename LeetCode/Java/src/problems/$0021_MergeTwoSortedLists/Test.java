@@ -1,4 +1,4 @@
-package problems.$$0021_MergeTwoSortedLists;
+package problems.$0021_MergeTwoSortedLists;
 
 
 public class Test {

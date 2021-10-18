@@ -1,4 +1,4 @@
-package problems.$$0021_MergeTwoSortedLists;
+package problems.$0021_MergeTwoSortedLists;
 
 /*
  * Merge two sorted linked lists and return it as a new list.
