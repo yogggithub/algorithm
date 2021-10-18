@@ -31,7 +31,7 @@ public class RemoveDuplicatesFromSortedArray {
              * Runtime: 5 ms
              * Memory Usage: 40.2 MB
              *
-             * Summary: Runtime only beats 8.72%.
+             * Runtime beats 8.72%.
              */
 
             // for (int i = 0; i < nums.length; i++) {
@@ -54,7 +54,7 @@ public class RemoveDuplicatesFromSortedArray {
              * Runtime: 1 ms
              * Memory Usage: 44.7 MB
              *
-             * Summary: Runtime only beats 86.47%.
+             * Runtime beats 86.47%.
              */
             for (int i = 0; i < nums.length; i++) {
                 if (i == 0) {
