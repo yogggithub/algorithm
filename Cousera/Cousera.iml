@@ -14,6 +14,7 @@
       <excludeFolder url="file://$MODULE_DIR$/exercise/.idea/checkstyleidea-libs" />
       <excludeFolder url="file://$MODULE_DIR$/exercise/out" />
       <excludeFolder url="file://$MODULE_DIR$/exercise/src/floodfill" />
+      <excludeFolder url="file://$MODULE_DIR$/exercise/src/princeton/ii/week_4/assign/test_case" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
