@@ -68,7 +68,7 @@ public class CountSay {
                         j++;
                     }
 
-                    result.append(j - i);   //
+                    result.append(j - i);   // get accumulate by minus two pointers
                     result.append(c);
                     i = j;
                 }
