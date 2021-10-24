@@ -1,27 +1,25 @@
 package top_interview_questions.easy.linkedlist;
 
-import java.util.ArrayList;
-
 public class MergeTwoSortedLists {
     public static void main(String[] args) {
         Solution solution = new Solution();
         int[] l1 = {1, 2, 4};
         int[] l2 = {1, 3, 4};
-        ListNode head1 = arrayToListNode(l1);
-        ListNode head2 = arrayToListNode(l2);
-        print(solution.mergeTwoLists(head1, head2));
+        ListNode head1 = ListNode.arrayToListNode(l1);
+        ListNode head2 = ListNode.arrayToListNode(l2);
+        ListNode.print(solution.mergeTwoLists(head1, head2));
 
         int[] l3 = {};
         int[] l4 = {};
-        ListNode head3 = arrayToListNode(l3);
-        ListNode head4 = arrayToListNode(l4);
-        print(solution.mergeTwoLists(head3, head4));
+        ListNode head3 = ListNode.arrayToListNode(l3);
+        ListNode head4 = ListNode.arrayToListNode(l4);
+        ListNode.print(solution.mergeTwoLists(head3, head4));
 
         int[] l5 = {};
         int[] l6 = {0};
-        ListNode head5 = arrayToListNode(l5);
-        ListNode head6 = arrayToListNode(l6);
-        print(solution.mergeTwoLists(head5, head6));
+        ListNode head5 = ListNode.arrayToListNode(l5);
+        ListNode head6 = ListNode.arrayToListNode(l6);
+        ListNode.print(solution.mergeTwoLists(head5, head6));
     }
 
     static class Solution {
@@ -80,46 +78,6 @@ public class MergeTwoSortedLists {
             //     result.next = mergeTwoLists(l1, l2.next);
             // }
             // return result;
-        }
-    }
-
-    private static ListNode arrayToListNode(int[] nodeValues) {
-        ListNode dummyRoot = new ListNode(-1);
-        ListNode temp = dummyRoot;
-        for (int val : nodeValues) {
-            temp.next = new ListNode(val);
-            temp = temp.next;
-        }
-        return dummyRoot.next;
-    }
-
-    private static void print(ListNode node) {
-        ArrayList<Integer> vals = new ArrayList<>();
-        if (node != null) {
-            while (node.next != null) {
-                vals.add(node.val);
-                node = node.next;
-            }
-            // the last node
-            vals.add(node.val);
-        }
-        System.out.println(vals.toString());
-    }
-
-    static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
         }
     }
 }

@@ -6,14 +6,14 @@ public class ReverseLinkedList {
     public static void main(String[] args) {
         Solution solution = new Solution();
         int[] vals1 = {1, 2, 3, 4, 5};
-        ListNode head1 = arrayToListNode(vals1);
-        print(solution.reverseList(head1));
+        ListNode head1 = ListNode.arrayToListNode(vals1);
+        ListNode.print(solution.reverseList(head1));
         int[] vals2 = {};
-        ListNode head2 = arrayToListNode(vals2);
-        print(solution.reverseList(head2));
+        ListNode head2 = ListNode.arrayToListNode(vals2);
+        ListNode.print(solution.reverseList(head2));
         int[] vals3 = {1, 2};
-        ListNode head3 = arrayToListNode(vals3);
-        print(solution.reverseList(head3));
+        ListNode head3 = ListNode.arrayToListNode(vals3);
+        ListNode.print(solution.reverseList(head3));
     }
 
     static class Solution {
@@ -52,46 +52,6 @@ public class ReverseLinkedList {
                 head.next = null;
                 return current;
             }
-        }
-    }
-
-    private static ListNode arrayToListNode(int[] nodeValues) {
-        ListNode dummyRoot = new ListNode(-1);
-        ListNode temp = dummyRoot;
-        for (int val : nodeValues) {
-            temp.next = new ListNode(val);
-            temp = temp.next;
-        }
-        return dummyRoot.next;
-    }
-
-    private static void print(ListNode node) {
-        ArrayList<Integer> vals = new ArrayList<>();
-        if (node != null) {
-            while (node.next != null) {
-                vals.add(node.val);
-                node = node.next;
-            }
-            // the last node
-            vals.add(node.val);
-        }
-        System.out.println(vals.toString());
-    }
-
-    static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
         }
     }
 }
