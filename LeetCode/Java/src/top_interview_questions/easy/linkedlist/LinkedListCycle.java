@@ -1,5 +1,8 @@
 package top_interview_questions.easy.linkedlist;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class LinkedListCycle {
     public static void main(String[] args) {
         Solution solution = new Solution();
@@ -20,8 +23,28 @@ public class LinkedListCycle {
         public boolean hasCycle(ListNode head) {
 
             /*
+             * Solution v1: Set donot allow duplicate value
+             *
+             * Runtime: 12 ms @ (beats) 5.82%
+             * Memory Usage: 44.8MB @ (beats) 0%
+             */
+            // if (head == null) {
+            //     return false;
+            // }
+            //
+            // Set<ListNode> set = new HashSet<>();
+            //
+            // while (head != null) {
+            //     if (set.add(head)) {
+            //         head = head.next;
+            //     } else {
+            //         return true;
+            //     }
+            // }
+            // return false;
+            /*
              * (learn from Internet)
-             * Solution v1: Two pointers
+             * Solution v2: Two pointers
              */
 
             // Idea:
@@ -41,7 +64,7 @@ public class LinkedListCycle {
 
             /*
              * (learn from Internet)
-             * Solution v1: Optimized
+             * Solution v2: Optimized
              */
             if (head == null) {
                 return false;
