@@ -1,8 +1,8 @@
 package top_interview_questions.easy.linkedlist;
 
-public class DeleteNode {
+public class RemoveNthNodeFromEnd {
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        DeleteNode.Solution solution = new DeleteNode.Solution();
     }
 
     static class Solution {
@@ -18,15 +18,4 @@ public class DeleteNode {
 
         }
     }
-
-    class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 }
-
-
