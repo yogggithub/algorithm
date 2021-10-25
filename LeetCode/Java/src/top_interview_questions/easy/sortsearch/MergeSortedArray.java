@@ -1,8 +1,8 @@
-package top_interview_questions.easy.sortsearch.Merge.Sorted;
+package top_interview_questions.easy.sortsearch;
 
 import java.util.Arrays;
 
-public class Array {
+public class MergeSortedArray {
     public static void main(String[] args) {
         Solution solution = new Solution();
         int[] nums1 = {1, 2, 3, 0, 0, 0};
