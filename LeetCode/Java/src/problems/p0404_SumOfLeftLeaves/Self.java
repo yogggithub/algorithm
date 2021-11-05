@@ -1,4 +1,4 @@
-package problems.p404_SumOfLeftLeaves;
+package problems.p0404_SumOfLeftLeaves;
 
 import java.util.Stack;
 
