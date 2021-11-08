@@ -1,4 +1,4 @@
-package problems;
+package problems.p0096_UniqueBinarySearchTrees;
 
 public class p0096_UniqueBinarySearchTrees {
     public int numTrees(int n) {
