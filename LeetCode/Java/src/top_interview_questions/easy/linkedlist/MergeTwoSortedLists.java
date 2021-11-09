@@ -1,5 +1,7 @@
 package top_interview_questions.easy.linkedlist;
 
+import auxiliary.ListNode;
+
 public class MergeTwoSortedLists {
     public static void main(String[] args) {
         Solution solution = new Solution();

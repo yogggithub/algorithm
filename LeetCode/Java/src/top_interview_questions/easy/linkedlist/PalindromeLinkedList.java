@@ -1,7 +1,6 @@
 package top_interview_questions.easy.linkedlist;
 
-import java.util.HashMap;
-import java.util.Map;
+import auxiliary.ListNode;
 
 public class PalindromeLinkedList {
 

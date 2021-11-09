@@ -1,6 +1,7 @@
 package top_interview_questions.easy.trees;
 
-import java.util.LinkedList;
+import auxiliary.TreeNode;
+
 import java.util.Stack;
 
 public class MaximumDepthOfBinaryTree {

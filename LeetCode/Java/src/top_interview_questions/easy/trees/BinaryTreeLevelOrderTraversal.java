@@ -1,5 +1,7 @@
 package top_interview_questions.easy.trees;
 
+import auxiliary.TreeNode;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package top_interview_questions.easy.trees;
+package auxiliary;
 
 public class TreeNode {
     int val;

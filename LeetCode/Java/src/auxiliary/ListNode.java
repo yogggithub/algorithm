@@ -1,4 +1,4 @@
-package top_interview_questions.easy.linkedlist;
+package auxiliary;
 
 import java.util.ArrayList;
 

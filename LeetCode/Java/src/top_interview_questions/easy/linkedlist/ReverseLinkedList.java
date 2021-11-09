@@ -1,6 +1,6 @@
 package top_interview_questions.easy.linkedlist;
 
-import java.util.ArrayList;
+import auxiliary.ListNode;
 
 public class ReverseLinkedList {
     public static void main(String[] args) {
