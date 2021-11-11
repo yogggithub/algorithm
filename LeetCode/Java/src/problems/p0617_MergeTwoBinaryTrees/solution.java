@@ -1,5 +1,7 @@
 package problems.p0617_MergeTwoBinaryTrees;
 
+import auxiliary.TreeNode;
+
 import java.util.Stack;
 
 public class solution {

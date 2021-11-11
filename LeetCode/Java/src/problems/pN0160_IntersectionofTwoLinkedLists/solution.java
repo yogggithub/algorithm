@@ -1,5 +1,7 @@
 package problems.pN0160_IntersectionofTwoLinkedLists;
 
+import auxiliary.ListNode;
+
 public class solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
 
