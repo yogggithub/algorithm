@@ -4,14 +4,14 @@ import auxiliary.ListNode;
 
 public class LinkedListCycle {
     public static void main(String[] args) {
-        Solution solution = new Solution();
-        int[] l1 = {3, 2, 0, -4};
-        ListNode head1 = ListNode.arrayToListNode(l1);
-        System.out.println(solution.hasCycle(head1));
-
-        int[] l2 = {1, 2};
-        ListNode head2 = ListNode.arrayToListNode(l2);
-        System.out.println(solution.hasCycle(head2));
+        // Solution solution = new Solution();
+        // int[] l1 = {3, 2, 0, -4};
+        // ListNode head1 = ListNode.arrayToListNode(l1);
+        // System.out.println(solution.hasCycle(head1));
+        //
+        // int[] l2 = {1, 2};
+        // ListNode head2 = ListNode.arrayToListNode(l2);
+        // System.out.println(solution.hasCycle(head2));
 
         // int[] l3 = {};
         // ListNode head3 = ListNode.arrayToListNode(l3);
