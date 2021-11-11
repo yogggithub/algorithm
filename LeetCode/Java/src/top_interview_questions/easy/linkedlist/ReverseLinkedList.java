@@ -4,16 +4,16 @@ import auxiliary.ListNode;
 
 public class ReverseLinkedList {
     public static void main(String[] args) {
-        Solution solution = new Solution();
-        int[] vals1 = {1, 2, 3, 4, 5};
-        ListNode head1 = ListNode.arrayToListNode(vals1);
-        ListNode.print(solution.reverseList(head1));
-        int[] vals2 = {};
-        ListNode head2 = ListNode.arrayToListNode(vals2);
-        ListNode.print(solution.reverseList(head2));
-        int[] vals3 = {1, 2};
-        ListNode head3 = ListNode.arrayToListNode(vals3);
-        ListNode.print(solution.reverseList(head3));
+        // Solution solution = new Solution();
+        // int[] vals1 = {1, 2, 3, 4, 5};
+        // ListNode head1 = ListNode.arrayToListNode(vals1);
+        // ListNode.print(solution.reverseList(head1));
+        // int[] vals2 = {};
+        // ListNode head2 = ListNode.arrayToListNode(vals2);
+        // ListNode.print(solution.reverseList(head2));
+        // int[] vals3 = {1, 2};
+        // ListNode head3 = ListNode.arrayToListNode(vals3);
+        // ListNode.print(solution.reverseList(head3));
     }
 
     static class Solution {
