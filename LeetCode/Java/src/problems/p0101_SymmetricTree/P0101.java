@@ -4,10 +4,6 @@ import auxiliary.TreeNode;
 
 import java.util.Stack;
 
-/*
- *
- */
-
 public class P0101 {
     public boolean isSymmetric(TreeNode root) {
         // base case

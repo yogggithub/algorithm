@@ -1,6 +1,8 @@
 package problems.p0021_MergeTwoSortedLists;
 
 
+import auxiliary.ListNode;
+
 class solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         if (l1 == null) {

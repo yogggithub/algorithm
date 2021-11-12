@@ -1,6 +1,5 @@
 package problems.p0167_TwoSumIIArraySorted;
 
-
 import java.util.HashMap;
 
 class P0167 {

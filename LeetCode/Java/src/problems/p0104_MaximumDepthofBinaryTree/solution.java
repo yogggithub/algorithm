@@ -1,5 +1,7 @@
 package problems.p0104_MaximumDepthofBinaryTree;
 
+import auxiliary.TreeNode;
+
 public class solution {
     public int maxDepth(TreeNode root) {
 

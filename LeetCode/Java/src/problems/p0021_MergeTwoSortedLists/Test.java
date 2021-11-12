@@ -1,6 +1,8 @@
 package problems.p0021_MergeTwoSortedLists;
 
 
+import auxiliary.ListNode;
+
 public class Test {
     public static void main(String[] args) {
         String line = "1, 2, 4";
