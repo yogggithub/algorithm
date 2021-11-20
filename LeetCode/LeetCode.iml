@@ -11,6 +11,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Java/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/Database" />
       <excludeFolder url="file://$MODULE_DIR$/Java/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/Java/out" />
+      <excludeFolder url="file://$MODULE_DIR$/Java/src/duplicate" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
