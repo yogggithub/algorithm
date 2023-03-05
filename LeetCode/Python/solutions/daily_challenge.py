@@ -2,54 +2,52 @@ from typing import List
 
 
 class Solution:
-    def searchInsert(self, nums: List[int], target: int) -> int:
-        # j = 0
-        # while True:
-        #     i = len(nums) // 2
+    def strStr(self, haystack: str, needle: str) -> int:
         #
-        #     if len(nums) == 1:
-        #         return j if target <= nums[0] else j + 1
+        # Solution v1: Brute Force
         #
-        #     if target == nums[i]:
-        #         return i + j
-        #     elif target < nums[i]:
-        #         nums = nums[:i]
-        #     else:
-        #         nums = nums[i:]
-        #         j += i
+        # Runtime: 28 ms @ (beats) 86.54%
+        # Memory Usage: 13.8 MB @ (beats) 54.52%
+        #
+        # l = len(needle)
+        #
+        # for i in range(len(haystack)):
+        #     if i + l > len(haystack):
+        #         return -1
+        #
+        #     if haystack[i:i + l] == needle:
+        #         return i
+        # return -1
 
-        start = 0
-        end = len(nums) - 1
+        #
+        # Solution v1.1: Shorted the codes
+        #
+        # Runtime: 32 ms @ (beats) 66.81%
+        # Memory Usage: 13.8 MB @ (beats) 54.52%
+        #
+        l = len(needle)
 
-        while start < end:
-            mid = (end + start) // 2
-
-            if target == nums[mid]:
-                return mid
-            elif target < nums[mid]:
-                end = mid - 1
-            else:
-                start = mid + 1
-
-        if target <= nums[start]:
-            return start
-        else:
-            return start + 1
+        for i in range(len(haystack) - l + 1):
+            if haystack[i:i + l] == needle:
+                return i
+        return -1
 
 
 if __name__ == "__main__":
     solution = Solution()
 
-    nums = [1, 3, 5, 6]
-    target = 5
-    print(f"return: {solution.searchInsert(nums, target)}")  # 2
+    haystack = "sadbutsad"
+    needle = "sad"
+    print(f"return: {solution.strStr(haystack, needle)}")  # 0
 
-    target = 2
-    print(f"return: {solution.searchInsert(nums, target)}")  # 1
+    haystack = "leetcode"
+    needle = "leeto"
+    print(f"return: {solution.strStr(haystack, needle)}")  # -1
 
-    target = 7
-    print(f"return: {solution.searchInsert(nums, target)}")  # 4
+    haystack = "a"
+    needle = "a"
+    print(f"return: {solution.strStr(haystack, needle)}")  # 0
 
-    nums = [1, 3]
-    target = 3
-    print(f"return: {solution.searchInsert(nums, target)}")  # 1
+    haystack = "abc"
+    needle = "c"
+    print(f"return: {solution.strStr(haystack, needle)}")  # 2

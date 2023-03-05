@@ -1,5 +1,7 @@
 package solutions.p0234_PalindromeLinkedList;
 
+import auxiliary.ListNode;
+
 public class solution {
     public static void main(String[] args) {
         solution self = new solution();

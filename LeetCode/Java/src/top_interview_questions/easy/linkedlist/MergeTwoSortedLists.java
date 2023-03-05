@@ -4,24 +4,24 @@ import auxiliary.ListNode;
 
 public class MergeTwoSortedLists {
     public static void main(String[] args) {
-        Solution solution = new Solution();
-        int[] l1 = {1, 2, 4};
-        int[] l2 = {1, 3, 4};
-        ListNode head1 = ListNode.arrayToListNode(l1);
-        ListNode head2 = ListNode.arrayToListNode(l2);
-        ListNode.print(solution.mergeTwoLists(head1, head2));
-
-        int[] l3 = {};
-        int[] l4 = {};
-        ListNode head3 = ListNode.arrayToListNode(l3);
-        ListNode head4 = ListNode.arrayToListNode(l4);
-        ListNode.print(solution.mergeTwoLists(head3, head4));
-
-        int[] l5 = {};
-        int[] l6 = {0};
-        ListNode head5 = ListNode.arrayToListNode(l5);
-        ListNode head6 = ListNode.arrayToListNode(l6);
-        ListNode.print(solution.mergeTwoLists(head5, head6));
+        // Solution solution = new Solution();
+        // int[] l1 = {1, 2, 4};
+        // int[] l2 = {1, 3, 4};
+        // ListNode head1 = ListNode.arrayToListNode(l1);
+        // ListNode head2 = ListNode.arrayToListNode(l2);
+        // ListNode.print(solution.mergeTwoLists(head1, head2));
+        //
+        // int[] l3 = {};
+        // int[] l4 = {};
+        // ListNode head3 = ListNode.arrayToListNode(l3);
+        // ListNode head4 = ListNode.arrayToListNode(l4);
+        // ListNode.print(solution.mergeTwoLists(head3, head4));
+        //
+        // int[] l5 = {};
+        // int[] l6 = {0};
+        // ListNode head5 = ListNode.arrayToListNode(l5);
+        // ListNode head6 = ListNode.arrayToListNode(l6);
+        // ListNode.print(solution.mergeTwoLists(head5, head6));
     }
 
     static class Solution {

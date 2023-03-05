@@ -1,6 +1,8 @@
 package solutions.p0021_MergeTwoSortedLists;
 
 
+import auxiliary.ListNode;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

@@ -15,7 +15,7 @@
       <excludeFolder url="file://$MODULE_DIR$/exercise/src/floodfill" />
       <excludeFolder url="file://$MODULE_DIR$/exercise/src/princeton/ii/week_4/assign/test_case" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="11" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="algs4" level="project" />
   </component>

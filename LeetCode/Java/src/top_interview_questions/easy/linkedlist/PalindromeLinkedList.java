@@ -5,14 +5,14 @@ import auxiliary.ListNode;
 public class PalindromeLinkedList {
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
-        int[] l1 = {1, 2, 2, 1};
-        ListNode head1 = ListNode.arrayToListNode(l1);
-        System.out.println(solution.isPalindrome(head1));
-
-        int[] l2 = {1, 2};
-        ListNode head2 = ListNode.arrayToListNode(l2);
-        System.out.println(solution.isPalindrome(head2));
+        // Solution solution = new Solution();
+        // int[] l1 = {1, 2, 2, 1};
+        // ListNode head1 = ListNode.arrayToListNode(l1);
+        // System.out.println(solution.isPalindrome(head1));
+        //
+        // int[] l2 = {1, 2};
+        // ListNode head2 = ListNode.arrayToListNode(l2);
+        // System.out.println(solution.isPalindrome(head2));
 
         // int[] l3 = {};
         // ListNode head3 = ListNode.arrayToListNode(l3);
