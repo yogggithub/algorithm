@@ -14,7 +14,7 @@
       <excludeFolder url="file://$MODULE_DIR$/Java/out" />
       <excludeFolder url="file://$MODULE_DIR$/Java/src/duplicate" />
     </content>
-    <orderEntry type="jdk" jdkName="11" jdkType="JavaSDK" />
+    <orderEntry type="jdk" jdkName="C:\Users\yogg1\Anaconda3" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
