@@ -2,52 +2,37 @@ from typing import List
 
 
 class Solution:
-    def strStr(self, haystack: str, needle: str) -> int:
-        #
-        # Solution v1: Brute Force
-        #
-        # Runtime: 28 ms @ (beats) 86.54%
-        # Memory Usage: 13.8 MB @ (beats) 54.52%
-        #
-        # l = len(needle)
-        #
-        # for i in range(len(haystack)):
-        #     if i + l > len(haystack):
-        #         return -1
-        #
-        #     if haystack[i:i + l] == needle:
-        #         return i
-        # return -1
+    def isValid(self, s: str) -> bool:
+        mp = {
+            "(": ")",
+            "[": "]",
+            "{": "}"
+        }
 
-        #
-        # Solution v1.1: Shorted the codes
-        #
-        # Runtime: 32 ms @ (beats) 66.81%
-        # Memory Usage: 13.8 MB @ (beats) 54.52%
-        #
-        l = len(needle)
+        q = []
+        for p in s:
+            if p in mp.keys():
+                q.append(p)
+                continue
 
-        for i in range(len(haystack) - l + 1):
-            if haystack[i:i + l] == needle:
-                return i
-        return -1
+            if not q:
+                return False
+
+            t = q.pop()
+            if p != mp.get(t):
+                return False
+
+        return not q
 
 
 if __name__ == "__main__":
     solution = Solution()
 
-    haystack = "sadbutsad"
-    needle = "sad"
-    print(f"return: {solution.strStr(haystack, needle)}")  # 0
+    s = "()"
+    print(f"return: {solution.isValid(s)}")  # True
 
-    haystack = "leetcode"
-    needle = "leeto"
-    print(f"return: {solution.strStr(haystack, needle)}")  # -1
+    s = "()[]{}"
+    print(f"return: {solution.isValid(s)}")  # True
 
-    haystack = "a"
-    needle = "a"
-    print(f"return: {solution.strStr(haystack, needle)}")  # 0
-
-    haystack = "abc"
-    needle = "c"
-    print(f"return: {solution.strStr(haystack, needle)}")  # 2
+    s = "(]"
+    print(f"return: {solution.isValid(s)}")  # False
